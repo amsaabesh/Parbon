@@ -239,15 +239,9 @@ namespace Parbon
             // 
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Items.AddRange(new object[] {
-            "Bhat",
-            "Choto mach",
-            "Alu Vorta",
-            "Seam Vorta",
-            "Kola Vorta",
-            "Begun Vorta",
-            "Roast",
-            "Plain Polao",
-            "Beef Rezala"});
+            "Bhat, Choto mach, Alu Vorta",
+            "Bhat, Vaji, Chui Jhal",
+            "Roast, Plain Polao, Beef Rezala"});
             this.comboBox7.Location = new System.Drawing.Point(142, 186);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(191, 21);

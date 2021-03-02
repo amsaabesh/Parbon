@@ -52,9 +52,9 @@ namespace Parbon
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -68,13 +68,13 @@ namespace Parbon
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
-            this.button2.Text = "Sign In";
+            this.button2.Text = "Sign Up";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(190, 122);
+            this.label3.Location = new System.Drawing.Point(190, 147);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label3.Size = new System.Drawing.Size(53, 13);
@@ -83,7 +83,7 @@ namespace Parbon
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(6, 115);
+            this.textBox3.Location = new System.Drawing.Point(6, 140);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(178, 20);
             this.textBox3.TabIndex = 7;
@@ -91,7 +91,7 @@ namespace Parbon
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(190, 44);
+            this.label4.Location = new System.Drawing.Point(190, 69);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 13);
             this.label4.TabIndex = 6;
@@ -99,7 +99,7 @@ namespace Parbon
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(6, 37);
+            this.textBox4.Location = new System.Drawing.Point(6, 62);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(178, 20);
             this.textBox4.TabIndex = 5;
@@ -107,16 +107,16 @@ namespace Parbon
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(190, 145);
+            this.label5.Location = new System.Drawing.Point(190, 43);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(91, 13);
+            this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Confirm Password";
+            this.label5.Text = "Name";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(6, 141);
+            this.textBox5.Location = new System.Drawing.Point(6, 36);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(178, 20);
             this.textBox5.TabIndex = 10;
@@ -124,7 +124,7 @@ namespace Parbon
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(190, 68);
+            this.label6.Location = new System.Drawing.Point(190, 93);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label6.Size = new System.Drawing.Size(32, 13);
@@ -133,7 +133,7 @@ namespace Parbon
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(6, 62);
+            this.textBox6.Location = new System.Drawing.Point(6, 87);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(178, 20);
             this.textBox6.TabIndex = 12;
@@ -141,7 +141,7 @@ namespace Parbon
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(190, 97);
+            this.label7.Location = new System.Drawing.Point(190, 122);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label7.Size = new System.Drawing.Size(38, 13);
@@ -150,7 +150,7 @@ namespace Parbon
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(6, 87);
+            this.textBox7.Location = new System.Drawing.Point(6, 112);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(178, 20);
             this.textBox7.TabIndex = 14;
@@ -171,7 +171,7 @@ namespace Parbon
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(178, 20);
             this.textBox8.TabIndex = 16;
-            this.textBox8.Text = "dd/mm/yyyy";
+            this.textBox8.Text = "yyyy/mm/dd";
             // 
             // label1
             // 
@@ -283,6 +283,17 @@ namespace Parbon
             this.label9.TabIndex = 6;
             this.label9.Text = "NID No";
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Location = new System.Drawing.Point(99, 129);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Log In";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -299,17 +310,6 @@ namespace Parbon
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(178, 20);
             this.textBox10.TabIndex = 7;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(99, 129);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Log In";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // LorS
             // 
